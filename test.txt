@@ -1,1 +1,9 @@
+<form id='form' name="nhapthongtin">
+        <input id='masv' type="text" name="msv" placeholder="Nhập mã SV">
+        <input type="text" name="hoten" placeholder="Nhập họ tên">
+        <input type="text" name="diem" placeholder="nhập điểm">
+        <button onclick="Handle(event)" class="btn btn-primary">Lưu</button>
 
+    </form>
+
+    <div id="ketqua"></div>
