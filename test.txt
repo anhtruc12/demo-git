@@ -10,7 +10,6 @@
             let form = document.getElementById('form')
             var msv = document.forms['nhapthongtin']['msv'].value;
             var hoten = document.forms['nhapthongtin']['hoten'].value;
-            var diem = document.forms['nhapthongtin']['diem'].value;
 
             var sv = {
                 msv: msv,
