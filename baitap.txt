@@ -1,0 +1,5 @@
+function deleteindex(){
+    if(confirm('bạn có muốn xóa sản phẩm này không ')){
+        alert('xóa sản phẩm thành công')
+    }
+}
