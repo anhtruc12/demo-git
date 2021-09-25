@@ -1,5 +1,15 @@
-function deleteindex(){
-    if(confirm('bạn có muốn xóa sản phẩm này không ')){
-        alert('xóa sản phẩm thành công')
-    }
-}
+﻿var dsdiem = []
+        function dssv() {
+            var msv = document.getElementById["bangdiemform"]["msv"].value;
+            var hoten = document.getElementById["bangdiemform"]["'hoten"].value;
+            var diem = document.getElementById["bangdiemform"]["diem"].value;
+
+            var sv = {
+                msv: msv,
+                hoten: hoten,
+                diem: diem,
+                xeploai: function () {
+                    if(diem >5) return "đỗ";
+                    else return "trượt";
+                }
+            }
