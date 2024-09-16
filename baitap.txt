@@ -13,3 +13,5 @@
                     else return "trượt";
                 }
             }
+            
+            them dome pull code
